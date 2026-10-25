@@ -2,7 +2,10 @@
 
 A satirical shopping site that exposes the **pink tax**: products marketed to women that cost more than the same products marketed to men. It compares real Amazon prices (collected with [Bright Data](https://brightdata.com)) and lets you paste any Amazon link to check if it's pink taxed.
 
-## Run it locally
+## Website Link
+[pinkaprice.compare](https://pinkaprice.compare)
+
+## Or, run it locally
 
 You need [Node.js](https://nodejs.org) 20 or newer.
 
@@ -17,11 +20,13 @@ Then open http://localhost:3000.
 
 ## Bright Data API key (optional)
 
-**You can run the site without a key.** The product catalog is already saved in the repo, so the category pages and home page work. The link checker also works for products in the catalog.
+**You can completely run the website without a key.** You can also run it locally without having a key: The product catalog is already saved in the repo, so the category pages and home page work. The link checker also works for products in the catalog.
 
-You only need a key to:
+You only need a key **when running locally**, to:
 - check Amazon links that **aren't** in the catalog, or
 - scrape new product data.
+
+This is already allowed on our public website without the need to add your own key.
 
 Each person uses **their own key**. Never commit a key to GitHub.
 
